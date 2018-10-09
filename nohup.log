@@ -1,0 +1,136 @@
+[INFO] 2018-10-09 17:22:25.083 [main] [org.springframework.boot.StartupInfoLogger]48 - Starting Application on DESKTOP-6OE57TT with PID 2540 (E:\spring_workspace\springboot-logAspect\target\classes started by hp in E:\spring_workspace\springboot-logAspect) 
+[INFO] 2018-10-09 17:22:25.101 [main] [org.springframework.boot.SpringApplication]637 - No active profile set, falling back to default profiles: default 
+[INFO] 2018-10-09 17:22:25.195 [main] [org.springframework.context.support.AbstractApplicationContext]582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:22:25 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:22:25.792 [background-preinit] [org.hibernate.validator.internal.util.Version]30 - HV000001: Hibernate Validator 5.3.5.Final 
+[INFO] 2018-10-09 17:22:27.771 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer]89 - Tomcat initialized with port(s): 8080 (http) 
+[INFO] 2018-10-09 17:22:27.809 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting service Tomcat 
+[INFO] 2018-10-09 17:22:27.811 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting Servlet Engine: Apache Tomcat/8.5.14 
+[INFO] 2018-10-09 17:22:27.976 [localhost-startStop-1] [org.apache.juli.logging.DirectJDKLog]179 - Initializing Spring embedded WebApplicationContext 
+[INFO] 2018-10-09 17:22:27.976 [localhost-startStop-1] [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext]276 - Root WebApplicationContext: initialization completed in 2795 ms 
+[INFO] 2018-10-09 17:22:28.202 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean]190 - Mapping servlet: 'dispatcherServlet' to [/] 
+[INFO] 2018-10-09 17:22:28.205 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO] 2018-10-09 17:22:28.206 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO] 2018-10-09 17:22:28.206 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO] 2018-10-09 17:22:28.206 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO] 2018-10-09 17:22:28.907 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:22:25 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:22:29.084 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/api/users/add],methods=[POST]}" onto public com.gwg.user.common.Result com.gwg.user.web.controller.UserController.add(com.gwg.user.dto.UserDto) throws com.gwg.user.exception.BussinessException 
+[INFO] 2018-10-09 17:22:29.087 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/api/users/getList],methods=[GET]}" onto public com.gwg.user.common.Result com.gwg.user.web.controller.UserController.getList() throws com.gwg.user.exception.BussinessException 
+[INFO] 2018-10-09 17:22:29.090 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO] 2018-10-09 17:22:29.091 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO] 2018-10-09 17:22:29.202 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:22:29.202 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:22:29.313 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:22:29.780 [main] [org.springframework.jmx.export.MBeanExporter]431 - Registering beans for JMX exposure on startup 
+[INFO] 2018-10-09 17:22:29.833 [main] [org.apache.juli.logging.DirectJDKLog]179 - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:22:29.847 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:22:29.883 [main] [org.apache.juli.logging.DirectJDKLog]179 - Pausing ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:22:29.884 [main] [org.apache.juli.logging.DirectJDKLog]179 - Stopping service Tomcat 
+[INFO] 2018-10-09 17:22:29.935 [main] [org.apache.juli.logging.DirectJDKLog]179 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+[INFO] 2018-10-09 17:22:29.936 [main] [org.apache.juli.logging.DirectJDKLog]179 - Stopping ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:22:29.936 [main] [org.apache.juli.logging.DirectJDKLog]179 - Destroying ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:22:29.941 [main] [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer]101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+[INFO] 2018-10-09 17:22:29.977 [main] [org.springframework.context.support.AbstractApplicationContext]987 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:22:25 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:22:29.980 [main] [org.springframework.jmx.export.MBeanExporter]449 - Unregistering JMX-exposed beans on shutdown 
+[INFO] 2018-10-09 17:24:59.026 [main] [org.springframework.boot.StartupInfoLogger]48 - Starting Application on DESKTOP-6OE57TT with PID 15504 (E:\spring_workspace\springboot-logAspect\target\classes started by hp in E:\spring_workspace\springboot-logAspect) 
+[INFO] 2018-10-09 17:24:59.030 [main] [org.springframework.boot.SpringApplication]637 - No active profile set, falling back to default profiles: default 
+[INFO] 2018-10-09 17:24:59.124 [main] [org.springframework.context.support.AbstractApplicationContext]582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:24:59 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:24:59.610 [background-preinit] [org.hibernate.validator.internal.util.Version]30 - HV000001: Hibernate Validator 5.3.5.Final 
+[INFO] 2018-10-09 17:25:01.232 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer]89 - Tomcat initialized with port(s): 8080 (http) 
+[INFO] 2018-10-09 17:25:01.244 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting service Tomcat 
+[INFO] 2018-10-09 17:25:01.245 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting Servlet Engine: Apache Tomcat/8.5.14 
+[INFO] 2018-10-09 17:25:01.387 [localhost-startStop-1] [org.apache.juli.logging.DirectJDKLog]179 - Initializing Spring embedded WebApplicationContext 
+[INFO] 2018-10-09 17:25:01.388 [localhost-startStop-1] [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext]276 - Root WebApplicationContext: initialization completed in 2268 ms 
+[INFO] 2018-10-09 17:25:01.707 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean]190 - Mapping servlet: 'dispatcherServlet' to [/] 
+[INFO] 2018-10-09 17:25:01.711 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO] 2018-10-09 17:25:01.713 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO] 2018-10-09 17:25:01.714 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO] 2018-10-09 17:25:01.714 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO] 2018-10-09 17:25:02.529 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:24:59 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:25:02.650 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/api/users/add],methods=[POST]}" onto public com.gwg.user.common.Result com.gwg.user.web.controller.UserController.add(com.gwg.user.dto.UserDto) throws com.gwg.user.exception.BussinessException 
+[INFO] 2018-10-09 17:25:02.651 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/api/users/getList],methods=[GET]}" onto public com.gwg.user.common.Result com.gwg.user.web.controller.UserController.getList() throws com.gwg.user.exception.BussinessException 
+[INFO] 2018-10-09 17:25:02.654 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO] 2018-10-09 17:25:02.655 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO] 2018-10-09 17:25:02.782 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:25:02.783 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:25:02.880 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:25:03.210 [main] [org.springframework.jmx.export.MBeanExporter]431 - Registering beans for JMX exposure on startup 
+[INFO] 2018-10-09 17:25:03.227 [main] [org.apache.juli.logging.DirectJDKLog]179 - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:25:03.238 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:25:03.300 [main] [org.apache.juli.logging.DirectJDKLog]179 - Pausing ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:25:03.301 [main] [org.apache.juli.logging.DirectJDKLog]179 - Stopping service Tomcat 
+[INFO] 2018-10-09 17:25:03.313 [main] [org.apache.juli.logging.DirectJDKLog]179 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+[INFO] 2018-10-09 17:25:03.313 [main] [org.apache.juli.logging.DirectJDKLog]179 - Stopping ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:25:03.314 [main] [org.apache.juli.logging.DirectJDKLog]179 - Destroying ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:25:03.317 [main] [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer]101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+[INFO] 2018-10-09 17:25:03.500 [main] [org.springframework.context.support.AbstractApplicationContext]987 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:24:59 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:25:03.501 [main] [org.springframework.jmx.export.MBeanExporter]449 - Unregistering JMX-exposed beans on shutdown 
+[INFO] 2018-10-09 17:48:22.018 [main] [org.springframework.boot.StartupInfoLogger]48 - Starting Application on DESKTOP-6OE57TT with PID 17416 (E:\spring_workspace\springboot-logAspect\target\classes started by hp in E:\spring_workspace\springboot-logAspect) 
+[INFO] 2018-10-09 17:48:22.021 [main] [org.springframework.boot.SpringApplication]637 - No active profile set, falling back to default profiles: default 
+[INFO] 2018-10-09 17:48:22.067 [main] [org.springframework.context.support.AbstractApplicationContext]582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:48:22 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:48:22.461 [background-preinit] [org.hibernate.validator.internal.util.Version]30 - HV000001: Hibernate Validator 5.3.5.Final 
+[INFO] 2018-10-09 17:48:23.922 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer]89 - Tomcat initialized with port(s): 8080 (http) 
+[INFO] 2018-10-09 17:48:23.938 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting service Tomcat 
+[INFO] 2018-10-09 17:48:23.939 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting Servlet Engine: Apache Tomcat/8.5.14 
+[INFO] 2018-10-09 17:48:24.057 [localhost-startStop-1] [org.apache.juli.logging.DirectJDKLog]179 - Initializing Spring embedded WebApplicationContext 
+[INFO] 2018-10-09 17:48:24.057 [localhost-startStop-1] [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext]276 - Root WebApplicationContext: initialization completed in 1993 ms 
+[INFO] 2018-10-09 17:48:24.323 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean]190 - Mapping servlet: 'dispatcherServlet' to [/] 
+[INFO] 2018-10-09 17:48:24.327 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO] 2018-10-09 17:48:24.328 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO] 2018-10-09 17:48:24.328 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO] 2018-10-09 17:48:24.328 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO] 2018-10-09 17:48:25.031 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:48:22 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:48:25.160 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/api/users/add],methods=[POST]}" onto public com.gwg.user.common.Result com.gwg.user.web.controller.UserController.add(com.gwg.user.dto.UserDto) throws com.gwg.user.exception.BussinessException 
+[INFO] 2018-10-09 17:48:25.163 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/api/users/getList],methods=[GET]}" onto public com.gwg.user.common.Result com.gwg.user.web.controller.UserController.getList() throws com.gwg.user.exception.BussinessException 
+[INFO] 2018-10-09 17:48:25.165 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO] 2018-10-09 17:48:25.166 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO] 2018-10-09 17:48:25.254 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:48:25.254 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:48:25.371 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:48:25.718 [main] [org.springframework.jmx.export.MBeanExporter]431 - Registering beans for JMX exposure on startup 
+[INFO] 2018-10-09 17:48:25.733 [main] [org.apache.juli.logging.DirectJDKLog]179 - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:48:25.747 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:48:25.788 [main] [org.apache.juli.logging.DirectJDKLog]179 - Using a shared selector for servlet write/read 
+[INFO] 2018-10-09 17:48:25.807 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer]198 - Tomcat started on port(s): 8080 (http) 
+[INFO] 2018-10-09 17:48:25.811 [main] [org.springframework.boot.StartupInfoLogger]57 - Started Application in 4.052 seconds (JVM running for 5.593) 
+[INFO] 2018-10-09 17:50:02.388 [http-nio-8080-exec-1] [org.apache.juli.logging.DirectJDKLog]179 - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+[INFO] 2018-10-09 17:50:02.388 [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet]489 - FrameworkServlet 'dispatcherServlet': initialization started 
+[INFO] 2018-10-09 17:50:02.422 [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet]508 - FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms 
+[INFO] 2018-10-09 17:50:02.443 [http-nio-8080-exec-1] [com.gwg.user.web.controller.UserController]30 - getList 获取用户信息列表... 
+[INFO] 2018-10-09 17:53:16.243 [main] [org.springframework.boot.StartupInfoLogger]48 - Starting Application on DESKTOP-6OE57TT with PID 4932 (E:\spring_workspace\springboot-logAspect\target\classes started by hp in E:\spring_workspace\springboot-logAspect) 
+[INFO] 2018-10-09 17:53:16.248 [main] [org.springframework.boot.SpringApplication]637 - No active profile set, falling back to default profiles: default 
+[INFO] 2018-10-09 17:53:16.334 [main] [org.springframework.context.support.AbstractApplicationContext]582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:53:16 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:53:16.724 [background-preinit] [org.hibernate.validator.internal.util.Version]30 - HV000001: Hibernate Validator 5.3.5.Final 
+[INFO] 2018-10-09 17:53:18.295 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer]89 - Tomcat initialized with port(s): 8080 (http) 
+[INFO] 2018-10-09 17:53:18.308 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting service Tomcat 
+[INFO] 2018-10-09 17:53:18.309 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting Servlet Engine: Apache Tomcat/8.5.14 
+[INFO] 2018-10-09 17:53:18.451 [localhost-startStop-1] [org.apache.juli.logging.DirectJDKLog]179 - Initializing Spring embedded WebApplicationContext 
+[INFO] 2018-10-09 17:53:18.451 [localhost-startStop-1] [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext]276 - Root WebApplicationContext: initialization completed in 2121 ms 
+[INFO] 2018-10-09 17:53:18.823 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean]190 - Mapping servlet: 'dispatcherServlet' to [/] 
+[INFO] 2018-10-09 17:53:18.829 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO] 2018-10-09 17:53:18.830 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO] 2018-10-09 17:53:18.831 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO] 2018-10-09 17:53:18.831 [localhost-startStop-1] [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean]258 - Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO] 2018-10-09 17:53:19.732 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c90a9c: startup date [Tue Oct 09 17:53:16 CST 2018]; root of context hierarchy 
+[INFO] 2018-10-09 17:53:19.864 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/api/users/add],methods=[POST]}" onto public com.gwg.user.common.Result com.gwg.user.web.controller.UserController.add(com.gwg.user.dto.UserDto) throws com.gwg.user.exception.BussinessException 
+[INFO] 2018-10-09 17:53:19.867 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/api/users/getList],methods=[GET]}" onto public com.gwg.user.common.Result com.gwg.user.web.controller.UserController.getList() throws com.gwg.user.exception.BussinessException 
+[INFO] 2018-10-09 17:53:19.869 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO] 2018-10-09 17:53:19.869 [main] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry]543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO] 2018-10-09 17:53:19.946 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:53:19.947 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:53:20.045 [main] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO] 2018-10-09 17:53:20.350 [main] [org.springframework.jmx.export.MBeanExporter]431 - Registering beans for JMX exposure on startup 
+[INFO] 2018-10-09 17:53:20.367 [main] [org.apache.juli.logging.DirectJDKLog]179 - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:53:20.382 [main] [org.apache.juli.logging.DirectJDKLog]179 - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO] 2018-10-09 17:53:20.405 [main] [org.apache.juli.logging.DirectJDKLog]179 - Using a shared selector for servlet write/read 
+[INFO] 2018-10-09 17:53:20.427 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer]198 - Tomcat started on port(s): 8080 (http) 
+[INFO] 2018-10-09 17:53:20.433 [main] [org.springframework.boot.StartupInfoLogger]57 - Started Application in 4.532 seconds (JVM running for 5.189) 
+[INFO] 2018-10-09 17:53:27.922 [http-nio-8080-exec-3] [org.apache.juli.logging.DirectJDKLog]179 - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+[INFO] 2018-10-09 17:53:27.923 [http-nio-8080-exec-3] [org.springframework.web.servlet.FrameworkServlet]489 - FrameworkServlet 'dispatcherServlet': initialization started 
+[INFO] 2018-10-09 17:53:27.955 [http-nio-8080-exec-3] [org.springframework.web.servlet.FrameworkServlet]508 - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms 
+[INFO] 2018-10-09 17:53:28.051 [http-nio-8080-exec-3] [com.gwg.user.config.log.ApiFlowAspect]44 - ***request:com.gwg.user.web.controller.UserController.getList-参数:--START*** 
+[INFO] 2018-10-09 17:53:28.063 [http-nio-8080-exec-3] [com.gwg.user.web.controller.UserController]33 - getList 获取用户信息列表... 
+[INFO] 2018-10-09 17:53:28.205 [http-nio-8080-exec-3] [com.gwg.user.config.log.ApiFlowAspect]68 - ***reponse:com.gwg.user.web.controller.UserController.getList-输出：{"message":"获取用户列表成功","result":[{"account":"13817191469","password":"111111"},{"account":"admin","password":"123456"}],"status":true,"statusCode":"200"}--cosTime:14ms--END*** 
